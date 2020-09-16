@@ -164,14 +164,21 @@ gulp.task("webshot", function () {
     .pipe(gulpSlash())
     .pipe(webshot(options));
 });
-
 gulp.task("thumbnails", function (cbk) {
   gulp
-    .src(destFolder + "preview/*.jpg")
+    .src(dest_folder + "preview/*.jpg")
     .pipe(gulpSlash())
     .pipe(
+      imageResize({
+        width: 200,
+        height: 150,
+        crop: false,
+        upscale: true,
+      })
+    )
+    .pipe(
       gulp.dest(function (f) {
-        return destFolder + f.stem + "/media/images/thumbnails";
+        return dest_folder + f.stem + "/media/images/thumbnails";
       })
     )
     .pipe(
