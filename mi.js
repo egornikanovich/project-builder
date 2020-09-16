@@ -153,7 +153,7 @@ gulp.task("webshot", function () {
     dest: destFolder + "preview/",
     root: workFolder,
     screenSize: { width: 1024, height: 768 },
-    shotSize: { width: 200, height: 150 },
+    shotSize: { width: 1024, height: 768 },
     flatten: true,
     streamType: "jpg",
     renderDelay: 9999,
