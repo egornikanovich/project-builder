@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "4": "0.0.0",
+    "del": "^2.2.2",
+    "fontfacegen": "^0.3.1",
+    "get-folder-size": "^2.0.0",
+    "gm": "^1.23.1",
+    "graceful-fs": "^4.2.4",
+    "gulp": "latest",
+    "gulp-batch-replace": "latest",
+    "gulp-cli": "latest",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-rename": "latest",
+    "gulp-resources": "^0.5.0",
+    "gulp-search": "^1.0.0",
+    "gulp-slash": "latest",
+    "gulp-sort": "^2.0.0",
+    "gulp-wait": "0.0.2",
+    "gulp-webshot": "^0.2.3",
+    "gulp-zip": "latest",
+    "map-stream": "0.0.7",
+    "natives": "^1.1.6",
+    "shelljs": "^0.8.0",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "gulp-fontgen": "^0.2.5"
+  }
+}

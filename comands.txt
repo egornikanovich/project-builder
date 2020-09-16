@@ -1,0 +1,4 @@
+npm init
+"gulp": "./node_modules/.bin/gulp"
+npm i gulpjs/gulp#4.0 -g
+export PATH=./node_modules/.bin:$PATH
